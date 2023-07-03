@@ -14,7 +14,7 @@ const buildOptions = {
 try {
   new dts.Generator({
     entry: buildOptions.entryPoints[0],
-    output: `${buildOptions.outdir}/index.d.ts`,
+    output: `${buildOptions.outdir}/types/index.d.ts`,
   }).generate();
 } catch (error) {
   throw Error(String(error));

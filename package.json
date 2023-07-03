@@ -10,6 +10,7 @@
   "private": true,
   "scripts": {
     "build": "node ./bundle/scripts/build.mjs",
+    "serve": "node ./bundle/scripts/serve.mjs",
     "format": "prettier --write \"src/**/*.{ts,tsx,js,mjs,cjs,jsx,json,md,mdx}\"",
     "lint": "tslint -p tsconfig.json",
     "test": "jest --config jest.config.js"
